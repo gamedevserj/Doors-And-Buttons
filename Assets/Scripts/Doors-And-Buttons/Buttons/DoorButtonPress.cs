@@ -1,6 +1,6 @@
 ﻿namespace DoorsAndButtons
 {
-    public class DoorButtonPress : DoorButtonBase
+    public class DoorButtonPress : DoorButtonBase, IInteractable
     {
 
         void Start()

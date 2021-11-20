@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DoorsAndButtons
 {
-    public abstract class DoorButtonBase : MonoBehaviour
+    public abstract class DoorButtonBase : MonoBehaviour, IInteractable
     {
         public bool IsActivated { get; set; }
         public Collider WhoPressesButton { get; set; } // to prevent change when another player steps on it   

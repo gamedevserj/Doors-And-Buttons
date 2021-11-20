@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace DoorsAndButtons
 {
-    public class DoorButtonTimer : DoorButtonBase
+    public class DoorButtonTimer : DoorButtonBase, IInteractable
     {
 
         public int timerButtonTime = 5;

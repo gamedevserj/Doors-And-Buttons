@@ -2,7 +2,7 @@
 
 namespace DoorsAndButtons
 {
-    public class DoorButtonHold : DoorButtonBase
+    public class DoorButtonHold : DoorButtonBase, IInteractable
     {
 
         public float timeToHold = 3;

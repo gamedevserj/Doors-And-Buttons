@@ -1,6 +1,6 @@
 ﻿namespace DoorsAndButtons
 {
-    public class DoorButtonSwitch : DoorButtonBase
+    public class DoorButtonSwitch : DoorButtonBase, IInteractable
     {
 
         public bool activeAtStart;

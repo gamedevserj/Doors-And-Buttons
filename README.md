@@ -2,6 +2,8 @@
 
 This is a tutorial project for beginners that provides examples of how to use abstract classes and inheritance. The project was created with Unity 2019.2.2f1, but should work in other versions as well. The decision to use inheritance over interfaces lies with the fact that Unity doesn't serialize interfaces, which means they can't be shown in the editor. Which in turn prevents a setup where multiple DoorManagers can have same doors/buttons (Example 7 scene).
 
+However! An example of how it can be used with interfaces via raycasting is added as well (Example 10 scene). Clicking the lever will activate/deactivate it and the heart also can be interacted with.
+
 **DoorManager.cs** contains information about the doors it controls and the buttons that control it. Different DoorManagers can be setup to have common doors and buttons.
 
 Doors can be setup to be open at start.
